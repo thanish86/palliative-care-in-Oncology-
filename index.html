@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symptom Checker · Palliative Care</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <button class="brand" id="homeBtn" aria-label="Go to start">
+        <span class="brand-dot"></span> Comfort Care
+      </button>
+      <a class="nav-call" id="navCall" href="#">Call care team</a>
+    </div>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer class="footer">
+    This tool gives general guidance only and does not replace advice from your doctor or nurse.
+    If you are worried, always contact your care team. In an emergency call <strong id="footerEmergency">112</strong>.
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
